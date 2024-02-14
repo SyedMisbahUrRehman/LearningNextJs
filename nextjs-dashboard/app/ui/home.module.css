@@ -1,7 +1,7 @@
 .shape {
     height: 0;
     width: 0;
-    border-bottom: 30px solid black;
+    border-bottom: 30px solid rgb(200, 151, 86);
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
   }
