@@ -16,30 +16,29 @@ export default function Page() {
             className={styles.shape}
           />
           <p className={`text-xl text-gray-600 md:text-3xl md:leading-normal ${lusitana.className} antialiased `}>
-            <strong>Welcome to Mohsin Tech.</strong> This is the example for the{' '}
-            <a href="https://nextjs.org/learn/" className="text-cyan-600">
-              Next.js Learn Course
-            </a>
-            , brought to you by Vercel.
-          </p>
+          Welcome to <strong>Invo Dash.</strong> Sleek dashboard designed to effortlessly handle customer management and invoice tracking📊.
+           Developed using the latest  technology to ensure top-notch performance and user experience  🚀 
+          
+            </p>
+           
           <Link
-            href="/login"
+            href="/dashboard"  //changing
             className="flex items-center gap-5 self-start rounded-lg bg-cyan-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-cyan-400 md:text-base"
           >
-            <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
+            <span>Dashboard</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
-          <Image
-            src="/hero-desktop.png"
+          <Image  //changing
+            src="/hero-desktop.jpg"
             width={1000}
             height={760}
             className="hidden md:block"
             alt="Screenshots of the dashboard project showing desktop version"
           />
            <Image
-        src="/hero-mobile.png"
+        src="/hero-mobile.jpg"
         width={560}
         height={620}
         className="md:hidden block"

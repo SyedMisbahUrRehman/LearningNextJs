@@ -41,7 +41,7 @@ export default async function RevenueChart() { // Make component async, remove t
           {revenue.map((month) => (
             <div key={month.month} className="flex flex-col items-center gap-2">
               <div
-                className="w-full rounded-md bg-purple-300"
+                className="w-full rounded-md bg-cyan-600 sm:w-2/3"
                 style={{
                   height: `${(chartHeight / topLabel) * month.revenue}px`,
                 }}
